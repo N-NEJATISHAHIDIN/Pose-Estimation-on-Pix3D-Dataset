@@ -95,8 +95,8 @@ The numerical results are shown in the following table. The results are for azim
 
 |<p>Models , </p><p></p>|RGB|RGB+Mask|RGB+ Mask+ Boundaries|RGB + Mask + Boundaries + Normals|
 | :- | :- | :- | :- | :- |
-|Combined\_net |57.7844|71.0579|64.3713|65.5329|
-|Seperated\_net |50.1996|36.4271|37.1257|36.4271|
+|Combined\_net |56.8862|72.0559|64.3713|65.5329|
+|Seperated\_net |50.7984|36.9261|38.1238|41.1178|
 
 
 **Conclusion**:
