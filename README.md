@@ -20,7 +20,7 @@ The normal and boundaries are generated using mead level representation paper.
 
 The sample set of inputs are shown in the following.
 
-![](rgb.png)![](mask.png)![](boundries.png)![](normal.png)
+![](imgs/rgb.png)![](imgs/mask.png)![](imgs/boundries.png)![](imgs/normal.png)
 
 **Models:**
 
