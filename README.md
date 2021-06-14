@@ -20,7 +20,7 @@ The normal and boundaries are generated using mead level representation paper.
 
 The sample set of inputs are shown in the following.
 
-![](Aspose.Words.07a70c2c-4fc0-4793-ae9a-816569bac9ac.001.png)![](Aspose.Words.07a70c2c-4fc0-4793-ae9a-816569bac9ac.002.png)![](Aspose.Words.07a70c2c-4fc0-4793-ae9a-816569bac9ac.007.png)![](Aspose.Words.07a70c2c-4fc0-4793-ae9a-816569bac9ac.003.png)
+![](rgb.png)![](mask.png)![](boundries.png)![](normal.png)
 
 **Models:**
 
@@ -54,7 +54,7 @@ In general, we have made two models, combined\_net and seperate\_net.
 
 For each input (RGB, normal, mask, depth) we have the following network and at the end all feature layers are combined together to estimate the bin of the pose.
 
-![](Aspose.Words.07a70c2c-4fc0-4793-ae9a-816569bac9ac.004.png)
+![](model.png)
 
 
 **Training:**
