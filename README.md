@@ -99,9 +99,5 @@ The numerical results are shown in the following table. The results are for azim
 |Seperated\_net |50.7984|36.9261|38.1238|41.1178|
 
 
-**Conclusion**:
 
-The results show that the Mask helps a lot, since it's a ground truth mask. 
-
-For the separate model, the results are not good enough.
 
