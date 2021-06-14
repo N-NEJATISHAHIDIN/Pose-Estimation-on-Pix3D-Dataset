@@ -54,7 +54,7 @@ In general, we have made two models, combined\_net and seperate\_net.
 
 For each input (RGB, normal, mask, depth) we have the following network and at the end all feature layers are combined together to estimate the bin of the pose.
 
-![](model.png)
+![](imgs/model.png)
 
 
 **Training:**
