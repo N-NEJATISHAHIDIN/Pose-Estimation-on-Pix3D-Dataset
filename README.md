@@ -89,15 +89,33 @@ The models were evaluated in separate phases.
    1. Combined net
    1. Separated net
 
-The numerical results are shown in the following table. The results are for azimuth.
+1. In terms of trading data
+   1. Class agnostic
+   1. Category level (chair, bed, sofa)
 
+1. In terms of testing data
+   1. Evaluate the model with ground truth mask 
+   1. Evaluate model with noisy mask
 
+The numerical results are shown in the following tables. The results are for azimuth.
+
+*Class agnostic/ evaluated on ground truth masks*:
 
 |<p>Models , </p><p></p>|RGB|RGB+Mask|RGB+ Mask+ Boundaries|RGB + Mask + Boundaries + Normals|
 | :- | :- | :- | :- | :- |
 |Combined\_net |56.8862|72.0559|64.3713|65.5329|
 |Seperated\_net |50.7984|36.9261|38.1238|41.1178|
 
+*Category level (chairs)/ evaluated on ground truth masks*:
+
+|<p>Models , </p><p></p>|RGB|RGB+Mask|RGB+ Mask+ Boundaries|RGB + Mask + Boundaries + Normals|
+| :- | :- | :- | :- | :- |
+|Combined\_net |56.7415|59.0078|68.4073|76.7624|
 
 
+*Category level (chairs)/ evaluated on noisy masks*:
+
+|<p>Models , </p><p></p>|RGB|RGB+Mask|RGB+ Mask+ Boundaries|RGB + Mask + Boundaries + Normals|
+| :- | :- | :- | :- | :- |
+|Combined\_net |57.1802|42.8198|40.2089|42.8198|
 
